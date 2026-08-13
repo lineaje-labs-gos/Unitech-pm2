@@ -1,7 +1,7 @@
 {
   "name": "pm2",
   "preferGlobal": true,
-  "version": "7.0.1",
+  "version": "7.0.1-lineaje-01",
   "engines": {
     "node": ">=18.0.0"
   },
@@ -92,6 +92,10 @@
     {
       "name": "Chris Wiggins",
       "email": "chris@chriswiggins.co.nz"
+    },
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
     }
   ],
   "homepage": "http://pm2.keymetrics.io/",
@@ -213,7 +217,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Unitech/pm2.git"
+    "url": "https://github.com/lineaje-labs-gos/Unitech-pm2"
   },
   "license": "AGPL-3.0"
 }
