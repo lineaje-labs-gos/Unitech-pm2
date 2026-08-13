@@ -198,11 +198,13 @@
     "proxy-agent": "6.5.0",
     "semver": "7.7.2",
     "vizion": "2.2.1",
-    "ws": "8.20.0",
-    "js-yaml": "4.1.1"
+    "ws": ">=8.21.3",
+    "js-yaml": ">=4.3.1"
   },
   "overrides": {
-    "debug": "4.4.3"
+    "debug": "4.4.3",
+    "js-yaml": ">=4.3.1",
+    "ws": ">=8.21.3"
   },
   "optionalDependencies": {
     "pm2-sysmonit": "^1.2.8"
@@ -219,5 +221,9 @@
     "type": "git",
     "url": "https://github.com/lineaje-labs-gos/Unitech-pm2"
   },
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "resolutions": {
+    "js-yaml": ">=4.3.1",
+    "ws": ">=8.21.3"
+  }
 }
